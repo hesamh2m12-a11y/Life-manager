@@ -1,27 +1,26 @@
 # Goal Tree | درخت اهداف
 
-برنامه‌ریزی اهداف به‌صورت درختی: هدف اصلی ← سالانه ← شش‌ماهه ← سه‌ماهه ← ماهانه ← هفتگی ← کار روزانه.
-با تیک زدن کارهای روزانه، درصد پیشرفت همه‌ی شاخه‌های بالاتر **خودکار** پر می‌شود.
+اهداف بلندمدت را به‌صورت درختی بشکن: **هدف اصلی ← سالانه ← شش‌ماهه ← سه‌ماهه ← ماهانه ← هفتگی ← کار روزانه**.
+فقط با تیک زدن کارهای روزانه، درصد پیشرفت همه‌ی سطوح بالاتر خودکار پر می‌شود.
 
-Plan goals as a tree, down to daily tasks. Checking off daily tasks automatically fills progress for every goal above.
+Break long-term goals down to daily tasks. Progress fills automatically as you check off daily tasks.
 
 ## Features | امکانات
-- فارسی/انگلیسی، حتی برای عنوان هدف‌هایی که خودت می‌نویسی (برای هر هدف دو عنوان) | Persian/English UI **and** your own goal titles
-- ۵ تم رنگی | 5 themes
-- ذخیره‌ی خودکار در مرورگر | Auto-save in the browser
-- نمودار پیشرفت (حلقه‌های هم‌مرکز و نوار) | Animated progress rings and bars
-- پشتیبان JSON (خروجی/ورودی) | JSON export/import
-- قابل نصب روی گوشی (PWA) | Installable on phones
-- بدون سرور، بدون وابستگی (فقط فونت Vazirmatn) | No server, no dependencies
+- هر هدف اصلی یک درخت مستقل با رنگ خودش | Each main goal is its own colour-coded tree
+- فارسی/انگلیسی، حتی برای متن هدف‌هایی که خودت می‌نویسی | Persian/English UI and your own titles
+- ۶ تم (از جمله مشکی‌طلایی) و انتخاب فونت | 6 themes incl. black & gold, font picker
+- صفحه‌ی پیشرفت: حلقه‌های هم‌مرکز، نوار گرادیانی و پیشرفت به تفکیک سطح | Progress dashboard
+- ذخیره‌ی خودکار با نسخه‌ی پشتیبان داخلی | Auto-save with built-in fallback copy
+- انتقال به دستگاه دیگر با «لینک انتقال» یا فایل JSON | Move to another device via transfer link / JSON
+- قابل نصب روی گوشی (PWA)، بدون سرور و بدون وابستگی | Installable, no server, no dependencies
 
 ## Run | اجرا
-باز کردن `index.html` در مرورگر، یا انتشار روی GitHub Pages:
-Settings ← Pages ← Deploy from a branch ← `main` / `(root)` ← Save.
+GitHub Pages: Settings ← Pages ← Deploy from a branch ← `main` / `(root)` ← Save.
 آدرس: `https://USERNAME.github.io/REPO/`
 
 ## Data | داده‌ها
-هر کاربر داده‌هایش را فقط روی دستگاه خودش دارد (`localStorage`) و چیزی به سرور ارسال نمی‌شود. برای انتقال بین دستگاه‌ها از Export/Import استفاده کنید.
-Each user's data stays on their own device. Use Export/Import to move it.
+داده‌ها فقط روی دستگاه هر کاربر (`localStorage`) می‌مانند و به هیچ سرور ارسال نمی‌شوند.
+Each user's data stays on their own device; nothing is sent to a server.
 
 ## Files
 `index.html` app · `manifest.webmanifest` + `icon.svg` PWA · `LICENSE` MIT · `.gitignore`
